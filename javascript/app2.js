@@ -58,7 +58,7 @@ $(".answerDisplay").click(function() {
   console.log("the option clicked shows: " + optionClicked);
   if (optionClicked === this.id){
     console.log("right answer clicked");
-    $(".rightOrWrongWords").html("You were right!");
+    $(".rightOrWrongWords").html("You were right mr know it all!");
     numberRight ++;
   }
   else {
