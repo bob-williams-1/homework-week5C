@@ -39,7 +39,7 @@ function displayQuestion(q) {
   $(".distractor1").html(questionBank[q].distractor1);
   $(".distractor2").html(questionBank[q].distractor2);
   $(".distractor3").html(questionBank[q].distractor3);
-  // now anticipate the answer
+
   countdownFrom(30);
 };
 
