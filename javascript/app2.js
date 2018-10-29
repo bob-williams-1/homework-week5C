@@ -62,7 +62,7 @@ $(".answerDisplay").click(function() {
     numberRight ++;
   }
   else {
-    console.log("wrong answer clicked");
+    console.log("dumb answer clicked");
     $(".rightOrWrongWords").html("You were wrong.");
     numberWrong ++;
   };
